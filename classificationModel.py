@@ -12,7 +12,7 @@ dataset['Spam']=dataset['Category'].apply(lambda x:1 if x=='spam' else 0)
 
 #break the dataset
 X = dataset['Message']
-y = dataset['Category']
+y = dataset['Spam']
 
 #model creation
 model = Pipeline([

@@ -3,7 +3,6 @@ import streamlit as st
 def show_about_page():
     st.write(
         """
-
 Email spam classification is a crucial component of modern email filtering systems designed to keep inboxes free from unwanted and potentially harmful messages. It involves the automatic categorization of incoming emails as either spam (unsolicited and typically unwanted messages) or legitimate (non-spam) messages. This classification process is essential for maintaining the integrity of email communication, reducing the risk of phishing attacks, and improving user experience.
 
 Key components of email spam classification include:
@@ -29,6 +28,5 @@ Key components of email spam classification include:
 10. `Security and Privacy`: Protecting the privacy of email users is of utmost importance. Email spam classification systems must be designed with security in mind to prevent potential breaches or unauthorized access to user data.
 
 Email spam classification plays a crucial role in safeguarding email communication, reducing the risk of malware and phishing attacks, and enhancing the user experience by ensuring that inboxes are filled with legitimate and relevant messages. Continuous research and development are required to stay ahead of evolving spamming techniques and to ensure that email users receive the highest level of protection against unwanted messages.
-
 """
     )

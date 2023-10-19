@@ -26,5 +26,5 @@ def show_predict_page():
             else:
                 st.subheader("Email Predicted as Non-Spam")
 
-            st.write("""### 👈 To know more about the dataset, go to About page""")
+            st.write("""### 👈 To know more, go to About page""")
 
